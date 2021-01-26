@@ -1,4 +1,4 @@
-# my_garden
+# My Garden
 
 A new Flutter project.
 
