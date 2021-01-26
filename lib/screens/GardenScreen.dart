@@ -52,7 +52,7 @@ class GardenScreen extends StatelessWidget {
                               fontWeight: FontWeight.w600,
                             ),
                           ),
-                          subtitle: _buildContainerNeeded());
+                          subtitle: _buildSubtitle());
                     },
                   ),
                 ),
@@ -62,7 +62,7 @@ class GardenScreen extends StatelessWidget {
         ));
   }
 
-  Widget _buildContainerNeeded() {
+  Widget _buildSubtitle() {
     return Container(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.start,
